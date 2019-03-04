@@ -5,6 +5,8 @@ public class HexCell : MonoBehaviour
 {
     public HexCoordinates coordinates;
     public Color color;
+    public int elevation;
+    public const float elevationStep = 5f;
     [SerializeField]
     HexCell[] neighbors;
     public HexCell GetNeighbor (HexDirection direction)
