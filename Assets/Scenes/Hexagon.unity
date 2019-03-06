@@ -649,7 +649,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -958,6 +958,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hex Map Editor
       objectReference: {fileID: 0}
+    - target: {fileID: 7560322569807293858, guid: f3883d99af7860240b74b07114a1317d,
+        type: 3}
+      propertyPath: hexGrid
+      value: 
+      objectReference: {fileID: 2075876752}
     - target: {fileID: 7560322569807293862, guid: f3883d99af7860240b74b07114a1317d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1063,11 +1068,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7560322569807293858, guid: f3883d99af7860240b74b07114a1317d,
-        type: 3}
-      propertyPath: hexGrid
-      value: 
-      objectReference: {fileID: 2075876752}
     - target: {fileID: 7560322570541195768, guid: f3883d99af7860240b74b07114a1317d,
         type: 3}
       propertyPath: m_SizeDelta.x
